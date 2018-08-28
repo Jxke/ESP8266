@@ -7,7 +7,7 @@
 const char* ssid     = "MICA-Open";
 const char* password = "18261826";
  
-const char* host = "www.google.com";
+const char* host = "www.google.com"; //The web address itself
  
 void setup() {
   Serial.begin(115200);
@@ -51,7 +51,7 @@ void loop() {
   }
   
   // We now create a URI for the request
-  String url = "/";
+  String url = "/"; //basically the /index.html behind the URL
   Serial.print("Requesting URL: ");
   Serial.println(url);
   
