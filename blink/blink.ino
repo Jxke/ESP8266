@@ -4,8 +4,8 @@
  
 #include <ESP8266WiFi.h>
  
-const char* ssid     = "MICA-Open";
-const char* password = "18261826";
+const char* ssid     = "SBG7580AC-5B6F";
+const char* password = "3W2337102174";
  
 const char* host = "www.google.com";
  
